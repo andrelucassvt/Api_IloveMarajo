@@ -17,14 +17,19 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from rest_framework import routers
+from django.conf import settings
+from django.conf.urls.static import static
 
 from Municipios.API.Views import MunicipiosViewSet
 from Municipios.models import Municipios
+from PontosTuristicos.API.Views import PontosTuristicosViewSet
+from PontosTuristicos.models import PontosTuristicos
 
 router = routers.DefaultRouter()
-router.register('Municipios',MunicipiosViewSet,basename=Municipios)
+router.register('municipios',MunicipiosViewSet,basename=Municipios)
+router.register('pontosturisticos',PontosTuristicosViewSet,basename=PontosTuristicos)
 
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
