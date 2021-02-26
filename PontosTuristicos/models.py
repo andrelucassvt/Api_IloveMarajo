@@ -1,6 +1,7 @@
 from django.db import models
 
 from Municipios.models import Municipios
+from fotos.models import Fotos
 
 
 class PontosTuristicos(models.Model):
@@ -9,6 +10,7 @@ class PontosTuristicos(models.Model):
     municipio = models.ForeignKey(
         Municipios, on_delete=models.CASCADE,null=False,blank=False
     )
+    fotos = models.ManyToManyField(Fotos)
     nome = models.TextField(max_length=150)
     perfil = models.ImageField(upload_to='Api_IloveMarajo',null=True,blank=True)
     descricao = models.TextField(max_length=500)

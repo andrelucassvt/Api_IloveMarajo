@@ -25,11 +25,13 @@ from Municipios.API.Views import MunicipiosViewSet
 from Municipios.models import Municipios
 from PontosTuristicos.API.Views import PontosTuristicosViewSet
 from PontosTuristicos.models import PontosTuristicos
+from fotos.API.Views import FotosViewSet
+from fotos.models import Fotos
 
 router = routers.DefaultRouter()
 router.register('municipios',MunicipiosViewSet,basename=Municipios)
 router.register('pontosturisticos',PontosTuristicosViewSet,basename=PontosTuristicos)
-
+router.register('fotos',FotosViewSet,basename=Fotos)
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),

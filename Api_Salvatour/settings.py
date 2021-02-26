@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'Municipios',
     'PontosTuristicos',
+    'fotos',
     'django_filters',
 ]
 
