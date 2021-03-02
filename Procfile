@@ -1,0 +1,1 @@
+web: gunicorn Api_IloveMarajo.wsgi --log-file -
