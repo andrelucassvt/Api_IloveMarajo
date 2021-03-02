@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca78198-2c23-4843-8f39-d899c7e4342e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/API/Serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/API/Views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api_Salvatour/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_Salvatour/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_Salvatour/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_Salvatour/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PontosTuristicos/API/Serializes.py" beforeDir="false" afterPath="$PROJECT_DIR$/PontosTuristicos/API/Serializes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PontosTuristicos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PontosTuristicos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
